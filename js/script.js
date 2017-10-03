@@ -19,6 +19,7 @@ $(document).ready(function(){
     
         
     $("#add").click(function(){
+        document.getElementById("screen").innerHTML= "123";
         inputNumArr.push(inputNum);
         document.getElementById("screen").innerHTML="";
         operaterInp.push("add");
