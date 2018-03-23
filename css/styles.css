@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/
+/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
+article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -57,7 +57,7 @@ h1{
 
 #calWrap{
     width:240px;
-    margin:30px auto;
+    margin:30px auto; 
 }
 td button{
     width:60px;
@@ -81,30 +81,5 @@ button:active{
     text-align:right;
     font-size:50px;
     padding:15px 15px 0px 0px;
-
-}
-
-.google-ads-bottom{
-	width:100%;
-	height:auto;
-	position: fixed;
-	bottom:0;
-	text-align: center;
-}
-
-.ads-aside-left, .ads-aside-right{
-	width:10%;
-	height:80vh;
-	position: fixed;
-	top:80px;
-	text-align: center;
-
-}
-
-.ads-aside-left{
-	left:30px;
-}
-
-.ads-aside-right{
-	right:30px;
+    
 }
