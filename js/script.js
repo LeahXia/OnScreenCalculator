@@ -14,7 +14,7 @@ $(document).ready(function(){
         operaterPressed = false;
         isScreenCleared = true;
       }
-      screenValue.innerHTML +=  $(this).val();
+      screenValue.innerHTML = (screenValue.innerHTML === "0") ? $(this).val() : screenValue.innerHTML + $(this).val()
       var input = screenValue.innerHTML
       inputNum = parseFloat(input);
       if(inputNum>999999999) alert("The number you put is too big.")
@@ -62,7 +62,7 @@ $(document).ready(function(){
       inputNumArr=[];
       operaterInp=[];
       results=0;
-      document.getElementById("screen").innerHTML="";
+      document.getElementById("screen").innerHTML="0";
     });
 
     $(".percent").click(function(){
